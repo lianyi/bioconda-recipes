@@ -78,5 +78,5 @@ rm $LIB_INSTALL_DIR
 
 mkdir -p $PREFIX/bin $LIB_INSTALL_DIR
 cp $SRC_DIR/c++/ReleaseMT/bin/rpsbproc $PREFIX/bin/
-cp $SRC_DIR/c++/ReleaseMT/lib/* $LIB_INSTALL_DIR
+#cp $SRC_DIR/c++/ReleaseMT/lib/* $LIB_INSTALL_DIR
 chmod +x $PREFIX/bin/rpsbproc

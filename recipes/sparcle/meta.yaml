@@ -1,8 +1,8 @@
 {% set version = "2.7.1" %}
 {% set sha256 = "10a78d3007413a6d4c983d2acbf03ef84b622b82bd9a59c6bd9fbdde9d0298ca" %}
-{% set _CONDA_BOOST ="1.64" %}
-{% set _CONDA_ZLIB ="1.2.8" %}
-{% set _CONDA_BZIP2 ="1.0" %}
+{% set CONDA_BOOST ="1.64" %}
+{% set CONDA_ZLIB ="1.2.8" %}
+{% set CONDA_BZIP2 ="1.0" %}
 
 package:
   name: sparcle
@@ -44,7 +44,7 @@ requirements:
     - perl-archive-tar
 test:
   commands:
-    - rpsbproc -help
+    - rpsbproc
 about:
   home: http://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs
   license: Public Domain
