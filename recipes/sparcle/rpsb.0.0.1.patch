@@ -5427,7 +5427,7 @@ diff -Naur ncbi-blast-2.7.1+-src/c++/src/app/rpsbproc/rpsbproc.cpp ncbi-blast-2.
 +				if (procstatus & COflDomClstInfo::SPTHRESHOLD_DATA_NOT_FOUND)
 +					cerr << '\t' << MINBSCOREFILE << endl;
 +			}
-+			return 255;
++			return 0;
 +		}
 +
 +		(*pDataDst) << DATASTART << endl;
