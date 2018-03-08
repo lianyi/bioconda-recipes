@@ -63,7 +63,7 @@ LIB_INSTALL_DIR=$PREFIX/lib/ncbi-sparcle
     --with-nettle=$PREFIX \
     --without-krb5
 
-projects="app/rpsbproc/ algo/blast/ objmgr/ objtools/align_format/ objtools/blast/"
+projects="algo/blast/format/ app/rpsbproc/"
 cd ReleaseMT
 
 # The "datatool" binary needs the libs at build time, create
