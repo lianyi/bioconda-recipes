@@ -14,7 +14,6 @@ source:
     sha256: {{ sha256 }}
     patches:
       - boost_106400.patch
-     #- rpsb.0.0.1.patch
       - sparcle.0.0.2.patch
 
 build:
